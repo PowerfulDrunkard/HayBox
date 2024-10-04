@@ -63,7 +63,7 @@ const Pinout pinout = {
 };
 
 void setup() {
-    // Create GPIO input source and use it to read button states for checking button holds.
+    // Create GPIO inpt source and use it to read button states for checking button holds.
     GpioButtonInput *gpio_input = new GpioButtonInput(button_mappings, button_count);
 
     InputState button_holds;
